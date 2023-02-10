@@ -1,0 +1,276 @@
+body{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    background-image: linear-gradient(to right,#1047A7, #134BA9,
+    #164DAD,#1C52AF,#1F55B0, #285AB2, #335FB2,#3865B6
+    , #4069B9, #496EBB,#5473BF, #5B77C0, #617AC1,#6D86C8
+    ,#8391CF,#8D97D1, #959DD6, #979CD5, #A0A4DE,#A7A9DF, #A4ABE2
+    ,#9EABE0, #95ACE1, #8EADE0, #89ADE0,#7FAFDD,#75AFE0,
+    #70B2E2, #66B1E1, #5AB3DF, #59B2E0,#51B2DF,#49B7E0, #46B7E2
+    ,#44B8E2,#37BAE3, #34B9E2, #2EBCE1, #28BBE1,#26BEE3,#22BEE3
+    ,#22BEE3, #21BDE3);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right,#1047A7, #134BA9,
+    #164DAD,#1C52AF,#1F55B0, #285AB2, #335FB2,#3865B6
+    , #4069B9, #496EBB,#5473BF, #5B77C0, #617AC1,#6D86C8
+    ,#8391CF,#8D97D1, #959DD6, #979CD5, #A0A4DE,#A7A9DF, #A4ABE2
+    ,#9EABE0, #95ACE1, #8EADE0, #89ADE0,#7FAFDD,#75AFE0,
+    #70B2E2, #66B1E1, #5AB3DF, #59B2E0,#51B2DF,#49B7E0, #46B7E2
+    ,#44B8E2,#37BAE3, #34B9E2, #2EBCE1, #28BBE1,#26BEE3,#22BEE3
+    ,#22BEE3, #21BDE3);
+}
+nav{
+    color: white;
+    width: 100vw;
+    height: 50px;
+    background-image: linear-gradient(to right,#1047A7, #134BA9,
+    #164DAD,#1C52AF,#1F55B0, #285AB2, #335FB2,#3865B6
+    , #4069B9, #496EBB,#5473BF, #5B77C0, #617AC1,#6D86C8
+    ,#8391CF,#8D97D1, #959DD6, #979CD5, #A0A4DE,#A7A9DF, #A4ABE2
+    ,#9EABE0, #95ACE1, #8EADE0, #89ADE0,#7FAFDD,#75AFE0,
+    #70B2E2, #66B1E1, #5AB3DF, #59B2E0,#51B2DF,#49B7E0, #46B7E2
+    ,#44B8E2,#37BAE3, #34B9E2, #2EBCE1, #28BBE1,#26BEE3,#22BEE3
+    ,#22BEE3, #21BDE3);
+
+}
+li{
+    list-style-type: none;
+    font-size: 40px;
+}
+ul{
+    margin:0;
+}
+#input{
+    width: 285px;
+    font-size: 18px;
+    border: 2px solid rgb(15, 116, 156);
+    border-radius: 5px;
+}
+.section{
+    width: 21.7vw;
+    height: 30vw;
+    margin: 15px;
+    margin-top: 30px;
+    background-color:#F5EAE8;
+    border-radius: 5px;
+    border: none;
+}
+section h1{
+    color: rgb(5, 32, 63);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.add{
+    position: absolute;
+    top: .5%;
+    right: 3.3%;
+    display: flex;
+    margin: 5px;
+    margin-left: 46px;
+
+}
+#addtask{
+    cursor:pointer;
+    width: 90px;
+    height: 35px;
+    background-color: rgb(18, 185, 0);
+    color: black;
+    margin-left: 30px;
+    border-radius: 3px;
+    border: none;
+}
+#addtask:hover{
+    background-color: rgb(29, 238, 6);
+}
+
+.TaskWrapper{
+    cursor:grab;
+    position: relative;
+    right: 2px;
+    width: 20.5vw;
+    height: auto;
+    border: 2px solid rgb(243, 234, 234);
+    margin: 8px;
+    background-color:rgba(20, 22, 19, 0.295);
+    border-radius: 10px;
+}
+.TaskWrapper::-webkit-scrollbar{
+    display: none;
+}
+.task{
+    height: auto;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(20, 53, 102);
+    margin-left:5px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.descript{
+    margin: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+.pin{
+    position: relative;
+    top: 8px;
+    width: 40px;
+    height: 8px;
+    background-color: rgb(219, 62, 62);
+    margin-top: px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.circle{
+    position: absolute;
+    top: 3px;
+    left: 230px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(228, 218, 218);
+    color: rgb(219, 62, 62);;
+    border-radius: 100%;
+    border: 3px solid rgb(219, 62, 62);
+    
+}
+.circle:hover{
+    cursor: pointer;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+#paraDiv::-webkit-scrollbar{
+    display: none;
+}
+
+.allTasks{
+    overflow: scroll;
+    height: 23vw;
+}
+
+.hight{
+   
+    overflow: scroll;
+    height: 26vw;
+}
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+    display:none;
+    border-radius: 10px;
+}
+.popup .content{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background-image: linear-gradient(to right,#1047A7, #134BA9,
+    #164DAD,#1C52AF,#1F55B0, #285AB2, #335FB2,#3865B6
+    , #4069B9, #496EBB,#5473BF, #5B77C0, #617AC1,#6D86C8
+    ,#8391CF,#8D97D1, #959DD6, #979CD5, #A0A4DE,#A7A9DF, #A4ABE2
+    ,#9EABE0, #95ACE1, #8EADE0, #89ADE0,#7FAFDD,#75AFE0,
+    #70B2E2, #66B1E1, #5AB3DF, #59B2E0,#51B2DF,#49B7E0, #46B7E2
+    ,#44B8E2,#37BAE3, #34B9E2, #2EBCE1, #28BBE1,#26BEE3,#22BEE3
+    ,#22BEE3, #21BDE3);
+    width: 28.125rem;
+    height: 14.375rem;
+    z-index: 2;
+    text-align: center;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.popup .close-btn{
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    width: 20px;
+    height: 20px;
+    background: rgb(190, 10, 10);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.popup.active .overlay {
+    display: block;
+
+}
+.popup.active .content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+
+}
+#paraDiv{
+    width: 20vw;
+    position: relative;
+    top: 0px;
+    left: 5px;
+}
+.para{
+   color: rgb(129, 10, 10);
+   font-size: 15px;
+   font-weight:600;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+#description{
+    margin-top: .6%;
+    height: 50%;
+    width: 400px;
+    color: rgb(141, 14, 14);
+    font-size: 3vh;
+    resize: none;
+}
+#saveBtn{
+    cursor: pointer;
+    position: absolute;
+    left: 77%;
+    bottom: 4%;
+    background-color:blueviolet;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none; 
+}
+#h1{
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    margin-top: .7rem;
+}
+#description::-webkit-scrollbar{
+    display: none;
+}
+.delete{
+    display: none;
+}
+.allProgress .pin{
+    background-color: rgb(231, 246, 97);
+}
+.allReview .pin{
+    background-color: rgb(115, 215, 248);
+}
+.allDone .pin{
+    background-color: rgb(29, 238, 6);
+}
